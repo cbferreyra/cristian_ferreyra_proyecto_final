@@ -1,11 +1,12 @@
 /*Reset variables mixins*/
-@import "base";
-@import "body";
-@import "global_section";
+@import "./base/global";
+@import "./base/body";
+@import "header";
+@import "./base/mobile_nav";
+@import "./base/titles_subtitles";
 @import "index";
 @import "menu";
 @import "promociones";
 @import "cards";
-@import "titles_subtitles";
 @import "contacto";
 @import "terminosycondiciones";
