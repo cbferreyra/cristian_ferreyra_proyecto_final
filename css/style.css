@@ -121,6 +121,9 @@ body img {
 
 .globalSection {
   background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .globalSection .header__nav {
   display: flex;
@@ -322,32 +325,26 @@ footer .footer__credits p, footer .cards p {
   margin-bottom: 1rem;
 }
 
-.terminosContaniner {
+.privacyPolicy {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 90%;
+  align-items: left;
+  margin-top: 4rem;
+  width: 90%;
 }
 @media (min-width: 768px) {
-  .terminosContaniner {
-    max-width: 80%;
+  .privacyPolicy {
+    width: 80%;
   }
 }
-@media (min-width: 1280px) {
-  .terminosContaniner {
-    max-width: 70%;
+@media (min-width: 1080px) {
+  .privacyPolicy {
+    width: 70%;
   }
 }
-.terminosContaniner .privacyPolicy {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.terminosContaniner .privacyPolicy p {
-  display: inline-block;
-  margin-left: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+.privacyPolicy p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
