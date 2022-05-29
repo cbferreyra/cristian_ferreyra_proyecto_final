@@ -224,19 +224,19 @@ footer .footer__content {
 footer .footer__content .footer__text {
   margin: 1rem;
 }
-footer .footer__credits, footer .cards {
+footer .footer__credits {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-footer .footer__credits img, footer .cards img {
+footer .footer__credits img {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   display: inline;
   width: 3rem;
   text-align: center;
 }
-footer .footer__credits p, footer .cards p {
+footer .footer__credits p {
   font-size: 0.6rem;
   margin-bottom: 2rem;
 }
@@ -258,6 +258,9 @@ footer .footer__credits p, footer .cards p {
 }
 
 .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
   background: rgb(235, 230, 230);
   border-radius: 0.5rem;
@@ -266,6 +269,11 @@ footer .footer__credits p, footer .cards p {
 .cards:hover {
   box-shadow: 5px 5px 20px rgb(39, 39, 39);
 }
+.cards .card__btn {
+  margin-bottom: 1rem;
+  color: black;
+  cursor: pointer;
+}
 .cards h3 {
   margin-top: 1rem;
   font-weight: 600;
@@ -273,7 +281,7 @@ footer .footer__credits p, footer .cards p {
 }
 .cards p {
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 .cards .card__image {
