@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  grid-area: section;
 
   .header__nav {
     display: flex;
@@ -21,5 +22,17 @@
         color: #ff0000;
       }
     }
+  }
+  .section__title {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  .section__subtitle {
+    display: inline block;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
   }
 }

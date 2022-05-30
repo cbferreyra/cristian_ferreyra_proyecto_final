@@ -7,6 +7,8 @@
   grid-template-areas: "logo phone shopCart";
   align-items: center;
   grid-template-rows: 128px;
+  position: fixed;
+  width: 100%;
 
   .logo {
     grid-area: logo;
