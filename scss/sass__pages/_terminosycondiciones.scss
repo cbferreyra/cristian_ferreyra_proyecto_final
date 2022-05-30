@@ -4,6 +4,7 @@
   align-items: left;
   margin-top: 4rem;
   width: 90%;
+
   @media (min-width: 768px) {
     width: 80%;
   }
@@ -21,5 +22,8 @@
   }
   h3 {
     font-size: 1.1rem;
+  }
+  .policyLastParagraph {
+    margin-bottom: 3rem;
   }
 }

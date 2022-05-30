@@ -146,7 +146,7 @@ body img {
   color: black;
 }
 .globalSection .header__nav a:hover {
-  color: #ff0000;
+  color: red;
 }
 .globalSection .section__title {
   text-align: center;
@@ -370,6 +370,9 @@ footer .footer__credits p {
 }
 .privacyPolicy h3 {
   font-size: 1.1rem;
+}
+.privacyPolicy .policyLastParagraph {
+  margin-bottom: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

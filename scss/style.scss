@@ -1,11 +1,12 @@
 /*Reset variables mixins*/
 @import "./base/global";
 @import "./base/body";
-@import "header";
-@import "./base/section";
-@import "index";
-@import "menu";
-@import "promociones";
-@import "cards";
-@import "contacto";
-@import "terminosycondiciones";
+@import "./components/header";
+@import "./components/section";
+@import "./sass__pages/index";
+@import "./components/footer";
+@import "./sass__pages/menu";
+@import "./sass__pages/promociones";
+@import "./components/cards";
+@import "./sass__pages/contacto";
+@import "./sass__pages/terminosycondiciones";
