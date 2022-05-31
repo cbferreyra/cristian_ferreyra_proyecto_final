@@ -1,3 +1,4 @@
+/*seccion comun a todas las paginas, contiene navbar de pantalla mobile*/
 .globalSection {
   background-color: lightgray;
   display: flex;
@@ -26,7 +27,9 @@
   .section__title {
     text-align: center;
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 2rem;
+    color: map-get($palette, main-color);
+    letter-spacing: 2px;
   }
   .section__subtitle {
     display: inline block;
@@ -34,5 +37,10 @@
     font-size: 1rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
+  }
+}
+.globalSection--contacto {
+  img {
+    margin-top: 2rem;
   }
 }

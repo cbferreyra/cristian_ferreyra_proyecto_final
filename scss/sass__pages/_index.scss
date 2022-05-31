@@ -1,4 +1,4 @@
-/*SECTION*/
+/*Seccion del index*/
 .hero_container {
   grid-area: section;
   background-image: url(../imagenes/pizzalunaportada.jpg);
@@ -32,11 +32,15 @@
 
   .hero__text {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
 
     @media (min-width: 768px) {
+      font-size: 3rem;
+      margin-top: 10rem;
+    }
+    @media (min-width: 1080px) {
       font-size: 4rem;
       margin-top: 10rem;
     }

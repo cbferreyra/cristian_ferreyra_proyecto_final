@@ -1,10 +1,11 @@
-/*Reset variables mixins*/
+/*reset css y paleta de colores en mapa y mixin*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*estructura de la pagina y estilos generales*/
 body {
   display: grid;
   grid-template-rows: 120px auto 200px;
@@ -122,6 +123,7 @@ body img {
   }
 }
 
+/*seccion comun a todas las paginas, contiene navbar de pantalla mobile*/
 .globalSection {
   background-color: lightgray;
   display: flex;
@@ -151,7 +153,9 @@ body img {
 .globalSection .section__title {
   text-align: center;
   margin-top: 3rem;
-  font-size: 1rem;
+  font-size: 2rem;
+  color: red;
+  letter-spacing: 2px;
 }
 .globalSection .section__subtitle {
   display: inline block;
@@ -161,7 +165,11 @@ body img {
   margin-bottom: 5rem;
 }
 
-/*SECTION*/
+.globalSection--contacto img {
+  margin-top: 2rem;
+}
+
+/*Seccion del index*/
 .hero_container {
   grid-area: section;
   background-image: url(../imagenes/pizzalunaportada.jpg);
@@ -200,11 +208,17 @@ body img {
 }
 .hero_container .hero__text {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
+  .hero_container .hero__text {
+    font-size: 3rem;
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 1080px) {
   .hero_container .hero__text {
     font-size: 4rem;
     margin-top: 10rem;
@@ -243,6 +257,7 @@ footer .footer__credits p {
   margin-bottom: 2rem;
 }
 
+/*contenedor de cards de menu y promociones*/
 .container {
   display: flex;
   flex-direction: column;
@@ -259,6 +274,7 @@ footer .footer__credits p {
   }
 }
 
+/*cards de menu y promociones*/
 .cards {
   display: flex;
   flex-direction: column;
@@ -299,6 +315,7 @@ footer .footer__credits p {
   border-top-right-radius: 0.5rem;
 }
 
+/*estilos pagina contacto formulario*/
 .contacto__form {
   display: flex;
   flex-direction: column;
@@ -342,6 +359,7 @@ footer .footer__credits p {
   margin-bottom: 1rem;
 }
 
+/*estilos de la seccion principal de terminosycondiciones, cuyo enlace esta en la pagina Contacto*/
 .privacyPolicy {
   display: flex;
   flex-direction: column;
